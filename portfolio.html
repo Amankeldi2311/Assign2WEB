@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #18a769;
+        }
+
+
+        section {
+            margin-top: 0px;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .home-content {
+            margin-top: 30px;
+        }
+
+       
+
+        .card-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            width: 300px;
+            height: 400px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: 50%;
+            object-fit: cover;
+        }
+
+        .card-image {
+            padding: 20px;
+        }
+
+        .card-image h4 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .card-image p {
+            font-size: 16px;
+            margin: 10px 0 0;
+        }
+    </style>
+</head>
+<body>
+
+<header class="header">
+    <a href="#" class="logo">Amon.</a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- Home Section -->
+<section id="home" class="home">
+    <div class="home-content">
+        <h1>Hello, I'm Zhanatov Amankeldi</h1>
+        <h3>Software Engineer</h3>
+        <p>
+            A student at Astana IT University and a future IT specialist. I am fond of technology and I like to solve complex problems, which helps me to constantly learn new things. 
+            At the university, I study modern IT trends, participate in projects and develop programming skills. I strive for innovation and I am sure that my enthusiasm will help contribute to the future of IT.
+        </p>
+
+        <section id="profile" class="image">
+            <img src="photo.jpg" alt="profile" >
+        </div>
+    </div>
+</section>
+
+
+<!-- Hobbies Section -->
+<section id="hobbies" class = "back-img">
+    <h1>My Hobbies</h1>
+    <div class="card-container">
+        <div class="card">
+            <img src="photo5.jpg" alt="Football">
+            <div class="card-image">
+                <h4 style="color: black;">Football</h4>
+                <p>
+                    Since childhood, I've loved playing football. It's my favorite hobby that brings me joy and helps me relax. On the field, I feel free and confident, making football not just a hobby, but a true passion.
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="photo9.jpg" alt="Guitar">
+            <div class="card-image">
+                <h4 style="color: black;">Playing Guitar</h4>
+                <p>
+                    Playing the guitar, especially fingerstyle, has been a hobby I truly enjoy.
+                    Every time I pick up the guitar, I feel a deep connection with the melodies, making it a passion that I cherish.
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="photo10.jpg" alt="Programming">
+            <div class="card-image">
+                <h4 style="color: black;">Programming</h4>
+                <p>
+                    Programming is a hobby I love for its creativity and problem-solving. It pushes me to learn and create, fueling my passion for IT.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contacts-img">
+    <h1 style="color: black;">Contact Me</h1>
+    <div class="card-container">
+        <div class="card">
+            <div class="card-image">   
+                <h3 style="color: rgb(0, 0, 0);">Contact Information</h3>
+                <p>Email: amankeldizhanatov@gmail.com</p>
+                <p>Phone: +7 708 537 79 78</p>
+                <p>Instagram: @aman.zhv</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
